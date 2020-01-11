@@ -1,0 +1,30 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- type: field_group_list
+  name: headerNavigation
+  label: headerNavigation
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: link
+    label: link
+  - type: boolean
+    name: external
+    label: external
+- type: field_group_list
+  name: footerNavigation
+  label: footerNavigation
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: link
+    label: link
+  - type: boolean
+    name: external
+    label: external
