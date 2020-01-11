@@ -20,7 +20,7 @@ sections:
   label: Blog
   create: documents
   match: "**/*"
-upload_dir: images
+upload_dir: content/blog/images
 public_path: "/content/blog/images"
 front_matter_path: ''
 use_front_matter_path: false
